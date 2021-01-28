@@ -307,8 +307,7 @@ public class BrowserActivity extends Activity {
 		CookieSyncManager.getInstance().sync();
 
 		APPAplication.x5WebView=mWebView;
-		mWebView.saveWebArchive("url");
-	     mWebView.
+//		mWebView.saveWebArchive("url");
 	}
 
 	private void initBtnListenser() {
